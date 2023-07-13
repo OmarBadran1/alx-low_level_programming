@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
-Omar 
+*main - entry poit 
+*return: always 0 (success)
 */
 int main(void)
 {
