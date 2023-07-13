@@ -1,4 +1,7 @@
-#!/bin/bash
+#include <stdio.h>
+/**
+Omar 
+*/
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
