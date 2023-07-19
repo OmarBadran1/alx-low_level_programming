@@ -1,6 +1,6 @@
-#ifndef MAIN_H
-#define MAIN_H
-
-#include <stdio.h>
+#ifndef MAIN_HEADER_FILE
+#define MAIN_HEADER_FILE
 
 int _putchar (char c);
+
+#endif 
