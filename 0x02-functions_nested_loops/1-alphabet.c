@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Function prototype
+/* Function prototype */
 void print_alphabet();
 
 int main() {
@@ -8,10 +8,10 @@ int main() {
     return 0;
 }
 
-// Function definition
+/* Function definition */
 void print_alphabet() {
-    // Function implementation goes here
-    // For example, printing the alphabet
+    /* Function implementation goes here */
+    /* For example, printing the alphabet */
     char letter;
     for (letter = 'a'; letter <= 'z'; letter++) {
         printf("%c ", letter);
