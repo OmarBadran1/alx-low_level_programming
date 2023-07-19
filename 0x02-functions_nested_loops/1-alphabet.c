@@ -1,17 +1,20 @@
-#include <stdio.h>
+#include "main.h"
+/**
+*print_alphabet - Entry point
+*Return:0
+*/
 
-/* Function prototype */
-void print_alphabet();
+void print_alphabet(void);
 
 int main() {
     print_alphabet();
     return 0;
 }
 
-/* Function definition */
+// Function definition
 void print_alphabet() {
-    /* Function implementation goes here */
-    /* For example, printing the alphabet */
+    // Function implementation goes here
+    // For example, printing the alphabet
     char letter;
     for (letter = 'a'; letter <= 'z'; letter++) {
         printf("%c ", letter);
